@@ -11,7 +11,7 @@ export class WavStreamPlayer {
     constructor({ sampleRate }?: {
         sampleRate?: number;
     });
-    scriptSrc: any;
+    scriptSrc: string;
     sampleRate: number;
     context: any;
     stream: any;
